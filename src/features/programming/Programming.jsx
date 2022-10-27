@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const news_API_Tech =
-  "https://newsapi.org/v2/everything?q=programming&apiKey=9ddab756845e4422a9d321f36b9b351a";
+  "https://newsapi.org/v2/everything?q=programming&apiKey=ac65afee406647cbabb22c674ad4c642";
 
 const initialState = {
   entities: [],
